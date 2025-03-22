@@ -1,4 +1,4 @@
-const Overview = () => {
+const OverView = () => {
   return (
     <div className="p-5 flex-1">
       <h1 className="text-2xl font-bold">Overview</h1>
@@ -7,4 +7,4 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export default OverView;
