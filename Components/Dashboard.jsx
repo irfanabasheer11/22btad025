@@ -83,8 +83,8 @@ const Dashboard = () => {
                 <p className="text-sm text-gray-300">{user.email}</p>
               </div>
               <div className="text-right">
-                <p className="text-sm">📩 Posts: <span className="font-semibold">{user.postCount 0}</span></p>
-                <p className="text-sm">👥 Followers: <span className="font-semibold">{user.followers 0}</span></p>
+                <p className="text-sm">📩 Posts: <span className="font-semibold">{user.postCount}</span></p>
+                <p className="text-sm">👥 Followers: <span className="font-semibold">{user.followers}</span></p>
               </div>
             </li>
           ))}
